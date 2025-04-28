@@ -19,11 +19,11 @@ import CarComponent from './components/CarComponent.vue'
       <button>Learn More</button>
     </CarComponent>
     <CarComponent class="verydarkcyanBack">
-        <img src="/src/components/icons/icon-luxury.svg">
-        <h1>Luxury</h1>
-        <p>Cruise in the best car brands without the bloated prices.
-          Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
-        <button>Learn More</button>
+      <img src="/src/components/icons/icon-luxury.svg">
+      <h1>Luxury</h1>
+      <p>Cruise in the best car brands without the bloated prices.
+        Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+      <button>Learn More</button>
     </CarComponent>
 
   </main>
@@ -32,11 +32,8 @@ import CarComponent from './components/CarComponent.vue'
 <style scoped>
 .main-box {
   display: flex;
-  width: 800px;
-  height: auto;
+  max-width: 49.5rem;
 }
-
-
 
 .main-box h1 {
   font-family: 'Big Shoulders';
@@ -84,8 +81,7 @@ import CarComponent from './components/CarComponent.vue'
 @media (max-width: 800px) {
   .main-box {
     flex-direction: column;
-    width: 80vw;
-    height: 85vh;
+    max-width: 40rem;
   }
 }
 </style>
